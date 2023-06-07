@@ -13,6 +13,7 @@
 		F5EEE9492A3101E3002181AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5EEE9472A3101E3002181AC /* Main.storyboard */; };
 		F5EEE94B2A3101E4002181AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5EEE94A2A3101E4002181AC /* Assets.xcassets */; };
 		F5EEE94E2A3101E4002181AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5EEE94C2A3101E4002181AC /* LaunchScreen.storyboard */; };
+		F5EEE9562A31026A002181AC /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F5EEE9552A310269002181AC /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F5EEE94A2A3101E4002181AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5EEE94D2A3101E4002181AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5EEE94F2A3101E4002181AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5EEE9552A310269002181AC /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				F5EEE9472A3101E3002181AC /* Main.storyboard */,
 				F5EEE94A2A3101E4002181AC /* Assets.xcassets */,
 				F5EEE94C2A3101E4002181AC /* LaunchScreen.storyboard */,
+				F5EEE9552A310269002181AC /* Inceptionv3.mlmodel */,
 				F5EEE94F2A3101E4002181AC /* Info.plist */,
 			);
 			path = SeeFood;
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5EEE9462A3101E3002181AC /* ViewController.swift in Sources */,
+				F5EEE9562A31026A002181AC /* Inceptionv3.mlmodel in Sources */,
 				F5EEE9422A3101E3002181AC /* AppDelegate.swift in Sources */,
 				F5EEE9442A3101E3002181AC /* SceneDelegate.swift in Sources */,
 			);
