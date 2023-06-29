@@ -15,16 +15,34 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ug8-LT-qIC">
+                                <rect key="frame" x="0.0" y="92" width="414" height="804"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ug8-LT-qIC" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="QHJ-1V-KOE"/>
+                            <constraint firstItem="ug8-LT-qIC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="USj-9E-Ujl"/>
+                            <constraint firstItem="ug8-LT-qIC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="rP3-S1-SWA"/>
+                            <constraint firstAttribute="bottom" secondItem="ug8-LT-qIC" secondAttribute="bottom" id="s9C-PB-AiU"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="74R-w2-Tzj">
-                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="RLR-O4-vhM"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="RLR-O4-vhM">
+                            <connections>
+                                <action selector="cameraTapped:" destination="BYZ-38-t0r" id="J7V-ac-b6a"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="imageView" destination="ug8-LT-qIC" id="lUU-vm-qRy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1063.3587786259541" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="1062.3188405797102" y="3.3482142857142856"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="i8C-KU-y2R">
